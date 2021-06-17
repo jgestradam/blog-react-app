@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/components/BlogNews.scss';
+import post from '../assets/static/CSS4.jpg';
 
 const BlogNews = () => {
   return (
@@ -7,7 +8,7 @@ const BlogNews = () => {
       <div className='blogs-main-new'>
         <h3>Soy un titulo</h3>
         <div className='blogs-new-img-container'>
-          <img src='./access/descarga.jfif' alt='' />
+          <img src={post} alt='' />
         </div>
         <div className='blogs-new-info-container'>
           <h2>Titulo del blogpost</h2>

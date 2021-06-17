@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/components/Header.scss';
+import logo from '../assets/static/logo.png';
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <nav>
         <section className='nav-logo-container'>
           <a href='/'>
-            <img src='access/icons8-blog-100.png' alt='Logo de mi blog' />
+            <img src={logo} alt='Logo de mi blog' />
             {' '}
           </a>
         </section>
