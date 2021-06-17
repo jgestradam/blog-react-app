@@ -1,0 +1,24 @@
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
+.profile-main-container .profile-container {
+    display: flex;
+}
+.profile-main-container{
+    padding: 70px 40px;
+    margin-bottom: 50px;
+}
+.profile-main-container img {
+    width: 320px;
+    margin-right: 30px;
+}
+.profile-main-container .profile-container {
+    display: flex;
+}
+.blogs-new-info-container{
+    grid-column: 2;
+}
+.blogs-new-info-container p{
+    margin-bottom: 35px;
+}
