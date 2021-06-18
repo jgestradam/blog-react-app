@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/components/Header.scss';
 import logo from '../assets/static/logo.png';
 
@@ -7,13 +8,14 @@ const Header = () => {
     <header>
       <nav>
         <section className='nav-logo-container'>
-          <a href='/'>
+          <Link to='/'>
             <img src={logo} alt='Logo de mi blog' />
-            {' '}
-          </a>
+          </Link>
         </section>
         <section className='profile-link'>
-          <a href='./perfil.html'>Sobre mí</a>
+          <Link to='/profile'>
+            Sobre mí
+          </Link>
         </section>
       </nav>
     </header>

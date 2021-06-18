@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/components/Footer.scss';
 
 const Footer = (props) => {
@@ -6,9 +7,9 @@ const Footer = (props) => {
     <footer>
       <p>
         Copyright © 2021.
-        {' '}
-        <a href='/'>@jgestradam</a>
-        {' '}
+        <Link to='/'>
+          @jgestradam
+        </Link>
         <br />
         All Rights Reserved
       </p>

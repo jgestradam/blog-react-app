@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
 import '../assets/styles/App.scss';
 import BlogNews from '../components/BlogNews';
 import BlogsPostContainer from '../components/BlogsPostContainer';
@@ -10,7 +9,6 @@ import Footer from '../components/Footer';
 const Blogs = () => {
   return (
     <div>
-      <Header />
       <BlogsMain>
         <BlogNews />
         <BlogsPostContainer>

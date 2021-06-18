@@ -59,7 +59,10 @@ module.exports = {
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    compress: true,
+    stats: 'errors-only',
+    open: true,
     port: 3006,
+    compress: true,
+    historyApiFallback: true,
   },
 };

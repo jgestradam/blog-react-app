@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Profile from './containers/Profile';
-// import Blogs from './containers/Blogs';
-//import Blog from './containers/Blog';
+import App from './routes/App';
 
-ReactDOM.render(<Profile />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
